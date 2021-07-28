@@ -1,0 +1,25 @@
+{
+  "name": "wepbuck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --mode=production",
+    "watch": "node_modules/.bin/webpack serve --mode=development"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.4.0",
+    "path": "^0.12.7",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
+}
